@@ -1,0 +1,23 @@
+//Crea un programa al que le indiques un número entero por teclado y te imprima el factorial de ese número
+
+import org.w3c.dom.ls.LSOutput;
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner NumeroInt = new Scanner(System.in);
+        System.out.print("Introduce el numero: ");
+        int num = NumeroInt.nextInt();
+        int factorial = 1;
+        int i;
+        for (i = num; i > 0; i--) {
+            factorial = factorial * i;
+
+        }
+        System.out.println("El factorial de " + num + " es: " + factorial);
+
+    }
+}
