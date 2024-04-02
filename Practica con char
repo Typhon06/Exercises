@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        char letra1 = 'a';
+        char letra2 = 'b';
+        if (letra1 < letra2) {
+            System.out.println("El valor " + letra1 + "  es menor que " + letra2);
+        } else if (letra1 > letra2) {
+            System.out.println(letra1 +  " es mayor que " + letra2);
+        }
+        else
+            System.out.println(" Son iguales ");
+    }
+}
