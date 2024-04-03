@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner finder = new Scanner(System.in);
+        System.out.print("Año: ");
+        int Year = finder.nextInt();
+        int i;
+       if (Year % 4 == 0) {
+           System.out.println( Year + " es bisiesto");
+            }else
+           System.out.println( "El " + Year + " no es bisiesto");
+        }
+
+    }
